@@ -28,7 +28,8 @@ def quicksort_optimized(arr, low=0, high=None):
 
 
 def partition(arr, low, high):
-    pivot = arr[(low + high) // 2]  # better pivot
+    # better pivot
+    pivot = arr[(low + high) // 2]  
     i = low
     j = high
 
